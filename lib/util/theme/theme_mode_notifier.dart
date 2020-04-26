@@ -20,6 +20,5 @@ class ThemeModeNotifier extends ChangeNotifier {
   }
 
   ThemeData get themeData => current.themeData;
-
   ThemeData get darkThemeData => current.darkThemeData;
 }
